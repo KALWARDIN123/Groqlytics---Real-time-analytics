@@ -2,7 +2,7 @@ Groqlytics---Real-time-analytics
 
 # 🖥️ System Monitor Dashboard with Productivity Tracker
 
-A Django-based desktop and web-integrated system monitoring tool that tracks CPU, RAM, Disk, and Network usage, while also logging active applications and offering AI-generated productivity tips.
+A Django-based desktop and web-integrated system monitoring tool that tracks CPU, RAM, and Disk usage, while also logging active applications and offering AI-generated productivity tips.
 
 ## 🚀 Features
 
@@ -11,7 +11,6 @@ A Django-based desktop and web-integrated system monitoring tool that tracks CPU
   - CPU usage
   - RAM usage
   - Disk usage
-  - Network speed (download/upload)
 - 📌 Active window tracker (Windows-only)
 - ⏱️ App usage timer and history
 - 📃 Save activity logs as PDF
