@@ -39,6 +39,9 @@ Designed for development/demo use. Not production-ready.
 📝 License
 This project is licensed under the MIT License.
 
+## Login details-
+username & password: admin
+
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the repository
@@ -48,6 +51,7 @@ This project is licensed under the MIT License.
 ```bash
 git clone https://github.com/KALWARDIN123/Groqlytics---Real-time-analytics
 cd Groqlytics---Real-time-analytics
+python -m pip install pywin32 
 pip install -r requirements.txt
 cd sysmon
 python manage.py runserver
