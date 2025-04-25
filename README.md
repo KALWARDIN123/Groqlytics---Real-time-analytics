@@ -31,6 +31,14 @@ A Django-based desktop and web-integrated system monitoring tool that tracks CPU
 
 ---
 
+⚠️ Notes
+This app uses win32gui and psutil, so it currently supports Windows only for app tracking.
+LibreOffice (soffice) must be installed and in system PATH to export PDFs.
+Designed for development/demo use. Not production-ready.
+
+📝 License
+This project is licensed under the MIT License.
+
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the repository
@@ -44,11 +52,5 @@ pip install -r requirements.txt
 cd sysmon
 python manage.py runserver
 
-⚠️ Notes
-This app uses win32gui and psutil, so it currently supports Windows only for app tracking.
-LibreOffice (soffice) must be installed and in system PATH to export PDFs.
-Designed for development/demo use. Not production-ready.
 
-📝 License
-This project is licensed under the MIT License.
 
