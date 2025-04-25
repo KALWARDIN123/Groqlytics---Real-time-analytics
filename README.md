@@ -35,18 +35,18 @@ A Django-based desktop and web-integrated system monitoring tool that tracks CPU
 
 ### 1. Clone the repository
 
-``bash
+```bash
 git clone https://github.com/KALWARDIN123/Groqlytics---Real-time-analytics
 cd Groqlytics---Real-time-analytics
 
 ### 2. Extract sysmon.rar
 
 ### 3. Install dependencies
-''bash
+```bash
 pip install -r requirements.txt
 
 ### 4. Navigate to sysmon in terminal
-'' bash
+```bash
 cd sysmon
 python manage.py runserver
 
